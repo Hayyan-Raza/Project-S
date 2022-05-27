@@ -91,3 +91,56 @@ p
     font-size: 20px;
     margin: -98px 50px;
 }
+.para
+{
+    position: absolute;
+    margin: -439px 153px;
+    right: 0px;
+}
+hr
+{
+    margin-top: 45px;
+}
+h2
+{
+    font-size: 32px;
+    color: black;
+    font-family: Arial;
+    font-weight: 800;
+    margin-top: 45px;
+}
+.mr >img
+{
+    height: 50px;
+    width: auto;
+    margin-top: 20px;
+}
+h4{
+    color: black;
+    font-family: Arial black;
+    font-size: 18px;
+    
+}
+#rocket
+{
+    padding-left: 200px;
+}
+.text1, .text2
+{
+    display: inline-flex;
+    flex-direction: column;
+}
+.text1 > .p1 > p
+{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.text2 > .p2 > p
+{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.text2
+{
+    margin-left: 50px;
+}
