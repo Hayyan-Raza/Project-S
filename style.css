@@ -17,6 +17,7 @@ body
     margin: 37px 114px;
     overflow: hidden;
     box-shadow:12px 20px 20px 3px rgba(0, 0, 0, 0.134);
+
 }
 .menu
 {
@@ -90,6 +91,12 @@ p
     color: white;
     font-size: 20px;
     margin: -98px 50px;
+    
+}
+.scroll-div
+{
+    overflow: hidden;
+    overflow-y:scroll ;
 }
 .para
 {
