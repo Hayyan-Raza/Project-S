@@ -170,3 +170,9 @@ h4{
 {
     margin-left: 50px;
 }
+.extra
+{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
