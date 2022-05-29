@@ -93,10 +93,28 @@ p
     margin: -98px 50px;
     
 }
-.scroll-div
+.box
 {
     overflow: hidden;
-    overflow-y:scroll ;
+    overflow-y:scroll;
+}
+.box::-webkit-scrollbar
+{
+    width:15px;
+    border-radius: 5px;
+    
+}
+.box::-webkit-scrollbar-thumb
+{
+    background-color: #787676;
+    border-radius: 10px;
+    border:3px solid rgb(204, 204, 204);
+}
+.box::-webkit-scrollbar-track
+{
+    background-color: rgb(204, 204, 204);
+    border-radius: 10px;
+
 }
 .para
 {
@@ -104,6 +122,7 @@ p
     margin: -439px 153px;
     right: 0px;
 }
+
 hr
 {
     margin-top: 45px;
@@ -132,7 +151,7 @@ h4{
 {
     padding-left: 200px;
 }
-.text1, .text2
+.text1, .text2 
 {
     display: inline-flex;
     flex-direction: column;
