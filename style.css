@@ -7,6 +7,7 @@
 body
 {
     background-color: #F8E3EA;
+    overflow: hidden;
 }
 .box
 {
@@ -70,7 +71,6 @@ p
 }
 .img > img
 { 
-    overflow: hidden;
     border-radius: 5px;
 }
 
@@ -93,33 +93,43 @@ p
     margin: -98px 50px;
     
 }
-.box
+.right-card
 {
     overflow: hidden;
-    overflow-y:scroll;
+   
 }
-.box::-webkit-scrollbar
+.right-card::-webkit-scrollbar
 {
     width:15px;
     border-radius: 5px;
     
 }
-.box::-webkit-scrollbar-thumb
+.right-card::-webkit-scrollbar-thumb
 {
     background-color: #787676;
     border-radius: 10px;
     border:3px solid rgb(204, 204, 204);
 }
-.box::-webkit-scrollbar-track
+.right-card::-webkit-scrollbar-track
 {
     background-color: rgb(204, 204, 204);
     border-radius: 10px;
 
 }
+.right-card
+{
+    background-color: rgba(255, 255, 255, 0);
+    height: 533px;
+    width: 628.5px;
+    margin: 35px 580px;
+    border-radius: 5px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
 .para
 {
     position: absolute;
-    margin: -439px 153px;
+    margin: 153px 196px;
     right: 0px;
 }
 
@@ -166,13 +176,17 @@ h4{
     font-size: 16px;
     margin-top: 20px;
 }
+.text3 > .p3 > p
+{
+    font-size: 16px;
+    margin-top: 20px;
+}
 .text2
 {
     margin-left: 50px;
 }
-.extra
+.text3
 {
-    display: inline-flex;
-    flex-direction: column;
-    margin-left: 100px;
+    margin-top: 30px;
 }
+
